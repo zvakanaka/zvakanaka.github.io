@@ -1,0 +1,29 @@
+{
+  "name": "simple-blog",
+  "version": "1.0.0",
+  "description": "markdown",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/zvakanaka/simple-blog"
+  },
+  "keywords": [
+    "blog",
+    "simple",
+    "easy",
+    "markdown"
+  ],
+  "author": "adam quinton",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-rename": "^1.2.2"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}

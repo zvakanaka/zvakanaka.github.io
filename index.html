@@ -1,20 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="vendor/themes/dark.css">
+  <meta charset="utf-8"/>
+  <title>Marked in the browser</title>
+  <script src="dist/js/marked.min.js"></script>
+  <script src="dist/js/main.js"></script>
+  <link rel="stylesheet" href="dist/css/main.css">
+  <link rel="stylesheet" href="dist/css/markdown.css">
 </head>
 <body>
-  <div id="app"></div>
+  <aside class="navigation"></aside>
+  <main class="main">
+    <article class="markdown-body"></article>
+  </main>
+  <script src="dist/js/patchArticle.js"></script>
 </body>
-<script>
-  window.$docsify = {
-    name: '',
-    repo: ''
-  }
-</script>
-<script src="vendor/docsify.js"></script>
 </html>
