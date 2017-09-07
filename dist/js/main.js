@@ -11,9 +11,10 @@ function getFile(url, callback, parseJSON) {
   xmlhttp.send();
 }
 
-function setMarkdown(file) {
+function setMarkdown(file, usePushState) {//file contains extension, pushState creates entry in history
   getFile(`posts/${file}`, function(post) {
     document.querySelector('.markdown-body').innerHTML = marked(post);
+    //dispatch event for patchArticle.js
     const postLoaded = new CustomEvent('postLoaded', { detail: { name: post }});
     document.dispatchEvent(postLoaded);
     //highlight post in sidebar
@@ -21,14 +22,19 @@ function setMarkdown(file) {
     if (displayedArticle) displayedArticle.classList.remove('displayed-article');
     document.getElementById(`${file}`).classList.add('displayed-article');
   });
-  if (history.pushState) history.pushState(null, null, `#${file}`);
-  else location.hash = `#${file}`;
+  if (usePushState && history.pushState) history.pushState(null, null, `#${file}`);
+  else if (history.replaceState) history.replaceState(null, null, `#${file}`);
+  else location.hash = `#${file}`;//browsers with no hash support
 }
 
 function getHash() {
   if (window.location.hash) return window.location.hash.substring(1);
   return null;
 }
+
+window.onhashchange = function() {//handle browser back/forward
+  setMarkdown(getHash(), false);
+};
 
 getFile('posts.json', function loadPostsIntoNav(posts) {
   let ul = document.createElement('ul');
@@ -37,19 +43,19 @@ getFile('posts.json', function loadPostsIntoNav(posts) {
     li.textContent = post.substr(0, post.lastIndexOf('.'));//strip extension
     li.id = post;
     li.addEventListener('click', function(ev) {
-      setMarkdown(post);
+      setMarkdown(post, true);
     });
     ul.appendChild(li);
   });
   document.querySelector('.navigation').appendChild(ul);
   const hash = getHash();
-  if (hash) {
+  if (hash) {//load post in url hash
     let selectedPost = posts
-      .filter(function(post) {
+      .filter(function(post) {//match with or without extension
         return post.substr(0, post.lastIndexOf('.')) === hash || post === hash;
       })
-      .forEach(function(post) {
-        setMarkdown(post);
+      .forEach(function(post) {//should be only one item in loop
+        setMarkdown(post, false);
       });
-  } else setMarkdown(posts[0]);
+  } else setMarkdown(posts[0], false);//default - no hash specifies article
 }, true);
