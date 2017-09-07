@@ -5,7 +5,13 @@ body { display: grid; grid-template-areas: "navigation main"; grid-template-colu
 .navigation > ul > li { list-style: none; margin-bottom: 10px; cursor: pointer; }
 .navigation > ul { margin-top: 60px; }
 .navigation { display: flex; flex-direction: column; align-items: center; }
-.navigation > ul > li.displayed-article { font-weight: bold;}
+.navigation > ul > li.displayed-article { font-weight: bold; }
 .markdown-body { margin: 0 auto; padding: 30px 15px; max-width: var(--article-max-width, 800px); }
 .markdown-body img { min-width: 100%; }
-video { width:100%; max-width: var(--article-max-width, 800px); height:auto; }
+.markdown-body video { width:100%; max-width: var(--article-max-width, 800px); height:auto; }
+@media screen and (max-width: 80ch) {
+  body { grid-template-areas: "navigation" "main"; grid-template-columns: 1fr; }
+  .main, .scroll-wrap { height: auto; overflow-y: auto; }
+  .navigation > ul { margin-top: 15px; }
+  .markdown-body { padding: 5px 7px 30px 7px; }
+}
