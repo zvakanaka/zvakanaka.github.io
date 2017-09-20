@@ -21,7 +21,7 @@ Experience
 **Web Developer** at **FamilySearch** *Jan, 2017 - Present*   
 * Full-stack web applications (**Node.js**, **Javascript**, **Web Components**)
 
-**Web Development Intern** at **FamilySearch** *May-Aug, 2016 - Present*   
+**Web Development Intern** at **FamilySearch** *May-Aug, 2016*   
 * Full-stack web applications (**Node.js**, **Javascript**, **MongoDB**)
 
 **Software Development Intern** at **The Church of Jesus Christ of Latter-day Saints** *Aug-Dec, 2015*
