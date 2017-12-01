@@ -12,7 +12,8 @@ network={
    scan_ssid=1
    key_mgmt=WPA-PSK
    psk="passphrase"
-}```
+}
+```
 
 ## Local IP Address
 `hostname -I`
