@@ -1,8 +1,8 @@
 # Raspberry Pi
-## Serial Connection
-`sudo screen /dev/ttyUSB0 115200`
-[reference](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/test-and-configure)
-If the text becomes [corrupted](https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=120112), make sure 5V of power is supplied.
+## Serial Console
+`sudo screen /dev/ttyUSB0 115200` . 
+[reference](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/test-and-configure) . 
+If the text becomes [corrupted](https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=120112), make sure 5V of power is supplied.  
 ## Wi-Fi
 `/etc/wpa_supplicant/wpa_supplicant.conf`
 ### WPA2
