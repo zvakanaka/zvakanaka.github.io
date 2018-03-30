@@ -1,3 +1,4 @@
+> **This post is purposely unlisted**
 # Learnings from CSS the missing manual
 ## Chapter 2
 * [CodePen](https://codepen.io/zvakanaka/pen/oEYENK)
