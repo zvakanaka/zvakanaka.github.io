@@ -141,3 +141,19 @@ This book has changed my life. Here are some of the quotes I want to always keep
 104\.
 
 > There is much wisdom in the words of Nietzshe: "He who has a *why* to live can bear almost any *how*."
+
+109\.
+
+> "Live as if you were living already for the second time and as if you had acted the first time as wrongly as you are about to act now!" ...imagine first that the present is past and, second, that the past may yet be changed and amended. Such a precept confronts him with life's finiteness as well as the finality of what he makes out of both his life and himself.
+
+110-111\.
+
+> "the self-transcendence of human existence." It denotes the fact that being human always, and is directed, to something, or someone, other than oneself--be it a meaning to fulfill or another human being to encounter. The more one forgets himself--by giving himself to a cause to serve or another person to love--the more human he is and the more he actualizes himself. What is called self-actualization is not an attainable aim at all, for the simple reason that the more one would strive for it, the more he would miss it. In other words, self-actualization is possible only as a side-effect of self-transcendence.
+
+111\.
+
+> Love is the only way to grasp another human being in the innermost core of his personality. No one can become fully aware of the very essence of another human being unless he loves him. By his love he is enabled to see the essential years and features in the beloved person; and even more, he sees that which is potential in him, which is not yet actualized but yet ought to be actualized. Furthermore, by his love, the loving person enables the beloved person to actualize these potentialities.
+
+121\.
+
+> The pessimist resembles a man who observes with dear and sadness that his wall calendar, from which he daily tears a sheet, grows thinner with each passing day. On the other hand, the person who attacks the problems of life actively is like a man who removed each successive Leah from good calendar and files it neatly and carefully away with its predecessors, after first having jotted down a few diary notes on the back.
