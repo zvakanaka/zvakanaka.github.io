@@ -54,7 +54,7 @@ This book has changed my life. Here are some of the quotes I want to always keep
 
 44\.
 
-> The attempt to develop a sense of humor and to see things in a humorous light is some kind of a truck learned while mastering the art of living.
+> The attempt to develop a sense of humor and to see things in a humorous light is some kind of a trick learned while mastering the art of living.
 
 44\.
 
