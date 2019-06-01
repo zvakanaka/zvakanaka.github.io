@@ -1,5 +1,5 @@
 {
-  "name": "simple-blog",
+  "name": "mere-blog",
   "version": "1.0.0",
   "description": "markdown",
   "main": "index.html",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/zvakanaka/simple-blog"
+    "url": "github.com/zvakanaka/mere-blog"
   },
   "keywords": [
     "blog",
@@ -17,7 +17,7 @@
     "markdown"
   ],
   "author": "adam quinton",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp-clean-css": "^3.8.0",
