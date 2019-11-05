@@ -1,21 +1,33 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width,initial-scale=1.0" name="viewport">
-  <title>Adam Quinton | Zvakanaka</title>
-  <base href="https://zvakanaka.github.io">
-  <script src="mere-blog/dist/js/marked.min.js"></script>
-  <script src="mere-blog/dist/js/main.js"></script>
-  <link rel="stylesheet" href="mere-blog/dist/css/main.css">
-  <link rel="stylesheet" href="mere-blog/dist/css/markdown.css">
-</head>
-<body>
-  <aside class="navigation"></aside>
-  <main class="main">
-    <article class="markdown-body"></article>
-  </main>
-  <script src="mere-blog/dist/js/plugin-html5-video.js"></script>
-  <script src="mere-blog/dist/js/plugin-code-highlight.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <title>Adam Quinton | Zvakanaka</title>
+    <base href="https://zvakanaka.github.io">
+    <script src="mere-blog/dist/js/marked.min.js"></script>
+    <script src="mere-blog/dist/js/main.js"></script>
+    <link rel="stylesheet" href="mere-blog/dist/css/main.css">
+    <link rel="stylesheet" href="mere-blog/dist/css/markdown.css">
+  </head>
+  <body>
+    <aside class="navigation"></aside>
+    <main class="main">
+      <article class="markdown-body"></article>
+    </main>
+    <script>
+      document.addEventListener('postLoaded', function replaceAsideTitles(ev) {
+        document.querySelectorAll('.navigation ul > li').forEach(li => {
+          const postNameRegexArr = li.textContent.match(/(^.*)\/([\w-.:]+)/);
+          if (postNameRegexArr) {
+            const [ , path, postName ] = postNameRegexArr;
+            li.textContent = postName;
+          }
+        });
+      });
+    </script>
+    <script src="mere-blog/dist/js/plugin-scroll-state.js"></script>
+    <script src="mere-blog/dist/js/plugin-html5-video.js"></script>
+    <script src="mere-blog/dist/js/plugin-code-highlight.js"></script>
+  </body>
 </html>
