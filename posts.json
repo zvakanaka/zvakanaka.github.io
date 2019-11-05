@@ -1,9 +1,9 @@
 [
   {
-    "file": "mere-blog/about.md"
+    "file": "../mere-blog/posts/about.md"
   },
   {
-    "folder": "mere-blog/code",
+    "folder": "../mere-blog/posts/code",
     "posts": [
       "digitally_process_negatives.md",
       "learning_web_dev.md",
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "folder": "mere-blog/wisdom",
+    "folder": "../mere-blog/posts/wisdom",
     "posts": [
       "have_better_conversations.md",
       "mans_search_for_meaning.md",
