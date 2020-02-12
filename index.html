@@ -77,7 +77,7 @@
     }
 
     function addPen(pen) {
-      const base = '.';
+      const base = location.origin;
       getHtml(`${base}/cpio/${pen}/${pen}.html`).then(htmlStr => {
         addHtml(htmlStr);
         addCss(`${base}/cpio/${pen}/${pen}.css`);
@@ -97,6 +97,7 @@
               main { z-index: 1; }
               aside > ul { z-index: 1; }
               .markdown-body { background: #fffa; }
+              canvas { position: fixed !important; }
             `);
           }
           easterEggLoaded = true;
