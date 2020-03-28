@@ -5,17 +5,22 @@
   {
     "folder": "../mere-blog/posts/code",
     "posts": [
-      "digitally_process_negatives.md",
       "git_basics.md",
-      "learning_web_dev.md",
-      "mere-blog_guide.md",
       "z.md"
+    ]
+  },
+  {
+    "folder": "../mere-blog/posts/projects",
+    "posts": [
+      "mere-blog.md",
+      "scriptures-of-Jesus.md",
+      "talks-of-president-nelson.md",
+      "time-lapse.md"
     ]
   },
   {
     "folder": "../mere-blog/posts/wisdom",
     "posts": [
-      "have_better_conversations.md",
       "mans_search_for_meaning.md",
       "when_you_have_the_Spirit.md"
     ]
