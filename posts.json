@@ -20,6 +20,12 @@
     ]
   },
   {
+    "folder": "../mere-blog/posts/til",
+    "posts": [
+      "Tracking a Lost Package"
+    ]
+  },
+  {
     "folder": "../mere-blog/posts/wisdom",
     "posts": [
       "mans_search_for_meaning.md",
