@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wp/wp-admin/
+Disallow: /*?*
+
+Sitemap: https://zvakanaka.github.io/sitemap.xml
