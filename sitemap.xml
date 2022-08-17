@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<sitemap>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
 		<loc>https://zvakanaka.github.io/vidslicer/</loc>
 		<lastmod>2022-08-16T19:52:16+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/#../mere-blog/posts/code/git_basics.md</loc>
 		<lastmod>2022-08-11T16:27:30+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/#../mere-blog/posts/projects/scriptures-of-Jesus.md</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/#../mere-blog/posts/wisdom/mans_search_for_meaning.md</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/#../mere-blog/posts/wisdom/when_you_have_the_Spirit.md</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/#../mere-blog/posts/about.md</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/gal/</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/image-manipulation-with-canvas/</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/console-log/</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/view-json/</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/table-of-data/</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-	<sitemap>
+	</url>
+	<url>
 		<loc>https://zvakanaka.github.io/color-cat/</loc>
 		<lastmod>2022-08-15T23:25:27+00:00</lastmod>
-	</sitemap>
-</sitemapindex>
+	</url>
+</urlset>
