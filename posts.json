@@ -22,12 +22,6 @@
     ]
   },
   {
-    "folder": "../mere-blog/posts/til",
-    "posts": [
-      "tracking-a-lost-package.md"
-    ]
-  },
-  {
     "folder": "../mere-blog/posts/wisdom",
     "posts": [
       "mans_search_for_meaning.md",
