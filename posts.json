@@ -6,7 +6,7 @@
     "folder": "../mere-blog/posts/code",
     "posts": [
       "git_basics.md",
-      "kitty_terminal.md",
+      "ghostty.md",
       "rescued-phone.md",
       "LazyVim.md",
       "z.md"
